@@ -1,0 +1,45 @@
+$pink: rgb(249, 7, 124);
+$darkGrey: rgb(152, 159, 164);
+$blue: rgb(12, 150, 218);
+$white: rgb(255, 255, 255);
+$black: rgb(9, 9, 9);
+$green: rgb(119, 215, 67);
+
+body {
+  background-color: $black;
+}
+
+.header-links {
+    background-color: $green;
+    list-style: none;
+    height: 58px;
+    padding: 15px;
+    font-size: 20px;
+    margin: 30px;
+  }
+
+  .header-links li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .header-links li a {
+    color: $black;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: $black;
+    color: $green;
+  }
+
+.jumbotron {
+  font-family: 'Sigmar One', cursive;
+  background-color: $black;
+  color: $green;
+}
+
+.pageClass {
+  color: $white;
+}
